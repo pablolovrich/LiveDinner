@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a Live Dinner, hacé tu reserva ahora mismo ¿Qué estás esperando?">
+    <meta name="keywords" content="Live Dinner, Café, Restaurante, Córdoba, Argentina, Reserva">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet"> 
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+    <!-- Cutstom CSS -->
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <!-- Título -->
+    <title>Live Dinner - Reserva</title>
+</head>
+
+<!-- Inicio de la página -->
+<body>
+
+    <!-- Header y nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top myNav">
+            <div class="container-xl">
+                <a class="navbar-brand" href="index.html"><h2 class="subtitle">Live Dinner <span class="point">.</span></h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link active btn btn-danger text-white" href="reserva.html">Reserva</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="d-flex align-items-center text-center">
+            <div class="container-xl">  
+                <div class="row">
+                    <div class="col"> 
+                        <h1 class="main-title">Reservá tu mesa ahora mismo ¿Qué estás esperando?</h1>
+                        <div class="text-white flecha"><i class="bi bi-chevron-compact-down"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario para reserva -->
+        <section id="reserva"  class="bg-light">
+            <div class="container-xl">
+                <div class="row text-center">
+                  <h2 class="subtitle">Formulario de reserva <span class="point">.</span></h2>
+                  <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <form class="row p-4 myForm">
+                    <div class="col-12 col-lg-6 p-1">
+                      <label for="inputName" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="inputName" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="col-12 col-lg-6 p-1">
+                      <label for="inputSurname" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="inputSurname" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="col-12 col-lg-6 p-1">
+                      <label for="inputPhone" class="form-label">Teléfono</label>
+                      <input type="tel" class="form-control" id="inputPhone" placeholder="351 111111">
+                    </div>
+                    <div class="col-12 col-lg-6 p-1">
+                        <label for="personas" class="p-1">Cuántas personas</label>
+                        <select class="form-select">
+                            <option selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4+</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-lg-6 p-1">
+                      <label for="inputDate" class="form-label">Cuándo</label>
+                      <input type="date" class="form-control" id="inputDate">
+                    </div>
+                    <div class="col-12 pt-3 pb-3 ps-1">
+                      <button type="submit" class="btn btn-danger">Solicitar Reserva</button>
+                    </div>
+                  </form>
+            </div>
+        </section>
+
+        <section class="bg-secondary text-white pt-5 pb-5">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col text-center">
+                        <h4>PRECAUCIONES DEBIDO A COVID-19</h4>
+                        <p>Es primordial para nosotros garantizar la seguridad y la tranquilidad de nuestro personal y nuestros invitados, así como ser responsables en términos de prevenir la propagación del virus Covid-19. <br>
+                        Hemos tomado las siguientes medidas en el restaurante para garantizar la seguridad y la salud tanto de nuestro personal como de los comensales: <br>
+                        – No hay riesgo de hacinamiento en ninguna sector del restaurante y estamos muy por encima de los 2 metros cuadrados por pasajero. Hemos cambiado el layout o diseño de nuestro comedor principal. Recibimos máximo 4 personas por mesa. <br>
+                        – Como hemos hecho siempre, tenemos un riguroso régimen de higiene en el restaurante y, además, hemos agudizado nuestros procedimientos de limpieza y saneamiento y los requisitos de higiene personal, incluido el lavado a mano y la higiene varias veces al día. También hemos establecido restricciones que limitan el número de personas en nuestras cocinas. <br>
+                        – Se proporcionará desinfectante de manos para cada mesa y estará disponible en baños y entradas / salidas. <br>
+                        – Seguimos de cerca el desarrollo de la situación y seguiremos cualquier recomendación adicional emitida por el Ministerio de Salud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer-->
+    <footer id=footer class="bg-dark text-light pt-4 pb-4">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col text-center footerItems">
+                    <a href="index.html"><h2 class="subtitle">Live Dinner <span class="point">.</span></h2></a>
+                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <div class="m-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                    <p>Todos los derechos reservados © 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<!-- Fin de la página -->
+</html>

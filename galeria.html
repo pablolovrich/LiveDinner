@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a Live Dinner, te presentamos nuestra galería de fotos">
+    <meta name="keywords" content="Live Dinner, Café, Restaurante, Córdoba, Argentina, Galería, Fotos">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet"> 
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+    <!-- Cutstom CSS -->
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <!-- Título -->
+    <title>Live Dinner - Galería</title>
+</head>
+
+<!-- Inicio de la página -->
+<body>
+
+    <!-- Header y nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top myNav">
+            <div class="container-xl">
+                <a class="navbar-brand" href="index.html"><h2 class="subtitle">Live Dinner <span class="point">.</span></h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+                        <li class="nav-item"><a class="nav-link active subrayado" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="reserva.html">Reserva</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="d-flex align-items-center text-center">
+            <div class="container-xl">  
+                <div class="row">
+                    <div class="col"> 
+                        <h1 class="main-title">Te presentamos nuestra galería de fotos</h1>
+                        <div class="text-white flecha"><i class="bi bi-chevron-compact-down"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección galería de imágenes -->
+        <section id="gallery" class="bg-light pt-5">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="text-center col-12">
+                        <h2 class="subtitle">Galería <span class="point">.</span></h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <img class="col img-fluid grid-img" src="images/gallery_1.jpeg" alt="langostino">
+                    <img class="col img-fluid grid-img" src="images/gallery_2.jpeg" alt="comida">
+                    <img class="col img-fluid grid-img" src="images/gallery_3.jpeg" alt="lomito">
+                    <img class="col img-fluid grid-img" src="images/gallery_4.jpeg" alt="merienda">
+                    <img class="col img-fluid grid-img" src="images/gallery_5.jpeg" alt="vegetales">
+                    <img class="col img-fluid grid-img" src="images/gallery_6.jpg" alt="hamburguesa">
+                    <img class="col img-fluid grid-img" src="images/gallery_7.jpg" alt="merienda">
+                    <img class="col img-fluid grid-img" src="images/gallery_8.jpeg" alt="desayuno">
+                    <img class="col img-fluid grid-img" src="images/gallery_9.jpeg" alt="pizza">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer-->
+    <footer id=footer class="bg-dark text-light pt-4 pb-4">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col text-center footerItems">
+                    <a href="index.html"><h2 class="subtitle">Live Dinner <span class="point">.</span></h2></a>
+                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <div class="m-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                    <p>Todos los derechos reservados © 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<!-- Fin de la página -->
+</html>
