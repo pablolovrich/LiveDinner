@@ -108,6 +108,7 @@ body {
     background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
+    padding-top: 4.375rem;
 
     .main-title {
         @include titulos (3.75rem, 600, 5rem, $blanco)
